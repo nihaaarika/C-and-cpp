@@ -1,0 +1,2 @@
+//private and public member
+

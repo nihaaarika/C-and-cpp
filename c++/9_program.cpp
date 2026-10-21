@@ -5,12 +5,12 @@ class Person {
     public: 
     string name;
 
-    void diplayName() {
+    void displayName() {
         cout << "Name: " << name << endl;
     }
 };
 
-class Person : public Person {
+class Student : public Person {
     public:
     int rollNumber;
 
@@ -23,10 +23,10 @@ int main () {
     Student s1;
 
     s1.name = "Niharika";
-    s2.rollNumber = "21";
+    s1.rollNumber = 21;
 
     s1.displayName();
-    s2.displayrollNumber();
+    s1.displayRollNumber();
 
     return 0;
 }

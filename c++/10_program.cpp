@@ -21,6 +21,6 @@ int main() {
     Dog d;
     d.sound();
 
-    return;
+    return 0;
 }
 

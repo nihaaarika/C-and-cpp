@@ -18,7 +18,11 @@ class Dog: public Animal {
 };
 
 int main() {
+    Animal* ptr;  //Create a pointer to a base class 
     Dog d;
-    d.sound();
+    
+    ptr = &d;       //makes the pointer refer to a Dog object.
+    ptr->sound();  // calls Dog's overridden function because sound() is virtual.
+
     return 0;
 }

@@ -1,0 +1,1 @@
+/* a string is a palindrome */
